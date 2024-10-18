@@ -1,0 +1,99 @@
+.user-management-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.add-user-btn {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #0aa410;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
+
+.add-user-btn i {
+  margin-right: 5px;
+}
+
+.add-user-btn:hover {
+  background-color: #034505;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.user-table th {
+  background-color: #f2f2f2;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.695);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  text-align: center;
+}
+
+.modal-content input,
+.modal-content select {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: block;
+  margin-top: 10px;
+  font-size: 1em;
+  margin-left: 50px;
+}
+
+
+.modal-content button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 40px;
+}
+
+.modal-content button[type="submit"] {
+  background-color: #0aa410;
+  color: white;
+  width: 150px;
+}
+
+.modal-content button[type="button"] {
+  background-color: #eb1304;
+  color: white;
+  width: 150px;
+}
+
+.modal-content button:hover {
+  opacity: 0.9;
+}
